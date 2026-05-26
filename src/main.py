@@ -5,11 +5,11 @@ import numpy as np
 
 detector = dlib.get_frontal_face_detector() 
 sp = dlib.shape_predictor(
-    "shape_predictor_68_face_landmarks.dat"
+    "models/shape_predictor_68_face_landmarks.dat"
 )
 
 facerecognition = dlib.face_recognition_model_v1(
-   "dlib_face_recognition_resnet_model_v1.dat"
+   "models/dlib_face_recognition_resnet_model_v1.dat"
 )
 
 
